@@ -36,7 +36,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 15px 50px;
-    position: fixed;
+    
     width: 100%;
 }
 
@@ -124,7 +124,7 @@ main {
     align-items: flex-start;
     justify-content: space-between;
     padding: 0 50px;
-    margin-top: -10px;
+    margin-top: -70px;
 
 }
 
@@ -142,6 +142,17 @@ main {
     gap: 5px 5px;
     flex-wrap: wrap;
     margin: 20px 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.section1 .left .tags :hover{
+    transform: translateY(-5px);
+     background: linear-gradient(45deg,#ff00cc,#3333ff,#00ffff);
+  box-shadow: 
+  0 0 10px #ff00cc,
+  0 0 20px #3333ff,
+  0 0 40px #00ffff;
 }
 
 .section1 .left .tags h4 {
@@ -174,6 +185,27 @@ main {
     border: none;
     font-size: 20px;
 }
+
+.cta button:nth-child(1):hover{
+    color: #0c0c0c;
+      transform: translateY(-8px);
+  background: linear-gradient(135deg,#00ff87,#60efff);
+  box-shadow: 
+  0 0 10px #00ff87,
+  0 0 25px #60efff,
+  0 0 45px #00ff87;
+}
+
+.cta button:nth-child(2):hover{
+    
+    transform: translateY(-5px);
+     background: linear-gradient(45deg,#ff00cc,#3333ff,#00ffff);
+  box-shadow: 
+  0 0 10px #ff00cc,
+  0 0 20px #3333ff,
+  0 0 40px #00ffff;
+}
+
 
 .cta button:nth-child(2) {
     background-color: var(--gray);
